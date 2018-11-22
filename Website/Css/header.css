@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+#menu-container {
+    background-color: gray;
+    height: 75px;
+    width: 100%;
+}
+
+#menu {
+    text-align: center;
+    color: white;
+    width: 25%;
+    margin: 0 auto;
+    height: 75px;
+}
+
+#menu li {
+    list-style: none;
+    float: left;
+    width: 33.33%;
+    margin: 5.9% 0;
+}
+
+#menu a {
+    text-decoration: none;
+    color: white;
+}
+
+#login-form {
+    width: 100%;
+    height: 100%;;
+    background-image: url("../Image/background.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: 100%;
+}
+
+#login-container {
+    margin: auto;
+    width: 50%;
+    text-align: center;
+    height: 50%;
+    position: absolute;
+    top: 0; left: 0; bottom: 0; right: 0;
+    line-height: 50%;
+}
+
+input {
+    width: 20%;
+    height: 8%;
+    background: transparent;
+    border: solid 1.5px rgba(51, 167, 196, 0.5);
+    color: white;
+}
+
+::placeholder { 
+    color: rgba(51, 167, 196, 0.5);
+}
