@@ -12,23 +12,11 @@
 
 <body>
 
-    <div id="menu-container">
-        <div id="menu">
-
-            <ul>
-                <a href="Register.php"><li>Register</li></a>
-                <a href="index.php"><li>Home</li></a>
-                <a href="contact.php"><li>Login</li></a>
-            </ul>
-
-        </div>
-    </div>
-
     <div id="login-form">
         <div id="login-container">
 
-            <input type="text" placeholder="Enter Username" id="username" required>
-            <input type="password" placeholder="Enter Password" id="password" required>
+            <input type="text" placeholder="Enter Username" id="username" required><br/>
+            <input type="password" placeholder="Enter Password" id="password" required><br/>
             
             <button onclick="myFunction()">Login</button>
 

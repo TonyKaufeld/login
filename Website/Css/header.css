@@ -5,20 +5,6 @@
     font-family: 'Ubuntu', sans-serif;
 }
 
-#menu-container {
-    background-color: gray;
-    height: 75px;
-    width: 100%;
-}
-
-#menu {
-    text-align: center;
-    color: white;
-    width: 25%;
-    margin: 0 auto;
-    height: 75px;
-}
-
 #menu li {
     list-style: none;
     float: left;
@@ -33,11 +19,11 @@
 
 #login-form {
     width: 100%;
-    height: 100%;;
-    background-image: url("../Image/background.png");
+    height: 100%;
+    background-image: url("../Image/city.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-position: center;
+    background-position: cover;
     background-size: 100%;
 }
 
@@ -45,20 +31,51 @@
     margin: auto;
     width: 50%;
     text-align: center;
-    height: 50%;
+    height: 75%;
     position: absolute;
     top: 0; left: 0; bottom: 0; right: 0;
-    line-height: 50%;
+    color: #6C374B;
 }
 
 input {
-    width: 20%;
-    height: 8%;
+    width: 30%;
+    height: 7%;
     background: transparent;
-    border: solid 1.5px rgba(51, 167, 196, 0.5);
-    color: white;
+    border: solid 1px #6C374B;
+    color: #6C374B;
+    padding: 1%;
+    margin: 0.5%;
 }
 
+button {
+    width: 20%;
+    height: 4%;
+    margin: 1%;
+    background-color: transparent;
+    border: solid 1px #A34625;
+    color: #A34625;
+}
+
+input:focus {
+    outline: none;
+}
+
+button:focus {
+    outline: none;
+}
+
+/*select text*/
+input::selection { 
+    background-color: #6C374B; 
+}
+
+/*remove forced yellow background*/
+input:-webkit-autofill {
+    -webkit-box-shadow: 0 0 0px 1000px rgba(255, 255, 255, 0.774) inset;
+    -webkit-text-fill-color: #6C374B !important;
+}
+
+/*change color for ploaceholder*/
 ::placeholder { 
-    color: rgba(51, 167, 196, 0.5);
+    color: #6C374B;
 }
