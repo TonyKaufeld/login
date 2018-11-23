@@ -1,14 +1,11 @@
-<script src="../Javascript/login.js"></script>
-
 <?php
-
 session_start();
-if (isset($_POST['submit'])) {
-    
     include 'dbh.inc.php';
-    
-    $uid = "<script>document.writeln(username);</script>";
-    $pwd = "<script>document.writeln(password);</script>";
+
+    $_POST['uid'];
+    $_POST['pwd'];
+
+    $uid = $_POST['uid'];
     
     //error handlers
     //check if inputs are empty
@@ -43,7 +40,4 @@ if (isset($_POST['submit'])) {
             }
         }
     }
-} else {
-    header("Location: ../index.php?login=error");
-    exit();
-}
+
