@@ -10,7 +10,7 @@
     
 </head>
 
-<body>
+<body onload="loaded()">
 
     <div id="login-form">
         <div id="login-container">
@@ -18,10 +18,16 @@
             <input type="text" placeholder="Enter Username" id="username" required><br/>
             <input type="password" placeholder="Enter Password" id="password" required><br/>
             
-            <button onclick="myFunction()">Login</button>
+            <button onclick="login()">Login</button>
+            <button onclick="Logout()">Logout</button>
 
-            <p id="username_value"></p>
-            <p id="password_value"></p>
+            <p id="session"></p>
+
+            <input type="text" placeholder="Enter Username" id="R_username" required><br/>
+            <input type="password" placeholder="Enter Password" id="R_password" required><br/>
+            
+            <button onclick="Register()">Register</button>
+
         </div>
     </div>
 

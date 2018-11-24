@@ -34,15 +34,15 @@
     height: 75%;
     position: absolute;
     top: 0; left: 0; bottom: 0; right: 0;
-    color: #6C374B;
+    color: rgb(190, 57, 33);
 }
 
 input {
     width: 30%;
     height: 7%;
-    background: transparent;
+    background: rgba(255, 255, 255, 0.5);
     border: solid 1px #6C374B;
-    color: #6C374B;
+    color: black;
     padding: 1%;
     margin: 0.5%;
 }
@@ -51,9 +51,9 @@ button {
     width: 20%;
     height: 4%;
     margin: 1%;
-    background-color: transparent;
-    border: solid 1px #A34625;
-    color: #A34625;
+    background: rgba(255, 255, 255, 0.5);
+    border: solid 1px #6C374B;
+    color: #6C374B;
 }
 
 input:focus {
